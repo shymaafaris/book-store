@@ -1,0 +1,190 @@
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+
+}
+body{
+background-color:;
+}
+.header1{
+background-color:white;
+height:30px;
+}
+.logo{
+font-size:20px;
+margin-left:15px;
+padding-top:5px;
+color:navy;
+
+}
+.text{
+color:darkorange;
+}
+
+
+
+
+
+.header2{
+background-color:navy;
+padding:0px;
+height:50px;
+display:flex;
+align-item:center;
+justify-content:space-between;
+}
+
+/*the sidebar menu*/
+.sidebar{
+height:100%;
+width:0;
+position:fixed;
+z-index:1;
+top=0;
+left:0;
+background-color:navy;
+overflow-x:hidden;
+padding-top:60px;
+transition:0.5s;
+}
+/*the sidebar links*/
+.sidebar a{
+padding:8px 8px 8px 32px;
+text-decoration:none;
+font-size:25px;
+color:white;
+display:block;
+transition:0.3s;
+}
+/*submenu*/
+.sub{
+float:left;
+overflow:hidden;
+}
+.sub .sub-btn{
+font-size:25px;
+border:none;
+outline:none;
+background-color:inherit;
+color:white;
+padding:20px 30px;
+margin:0;
+
+}
+.sub .sub-content{
+display:;
+position:absolute;
+left:0;
+z-index:1;
+
+}
+
+
+/*change the color when the mouse over the navigation links*/
+.sidebar a:hover{
+color:red;
+}
+/*close button(position and style)*/
+.sidebar .closebtn{
+position:absolute;
+top:0;
+right:25px;
+front-size:36px;
+margin-left:50px;
+}
+/*open button*/
+.openbtn{
+font-size:20px;
+cursor:pointer;
+background-color:navy;
+color:white;
+padding:10px 15px;
+border:none;
+width:40px;
+height:40px;
+position:absolute;
+top:30px;
+left:0px;
+
+}
+.openbtn:hover{
+background-color:blue;
+}
+/*push the page content to the right when open the side navigation*/
+#main{
+transition:margin-left .5s;
+padding:20px;
+}
+.search{
+background-color:navy;
+width:100%;
+max-width:800px;
+position:absolute;
+top:45px;
+height:25px;
+margin-left:50px;
+
+
+}
+.search input{
+width:610px;
+position:absolute;
+top:-2px;
+margin-left:170px;
+border-radius:3px;
+height:25px;
+border:none;
+}
+.search input[placeholder]{
+padding-left:5px;
+}
+.button2{
+float:right;
+margin:-3px -3px 10px 620px ;
+background-color:black;
+border-radius:5px;
+}
+img{
+background-color:black;
+}
+
+.icons{
+color:black;
+margin:15px 30px 10px 620px ;
+font-size:20px;
+}
+.icons a{
+color:black;
+}
+.books{
+text-align:center;
+font-size:25px;
+padding:20px;
+}
+.box{
+display:flex;
+justify-content:center;
+float:right;
+}
+.box .b-image img{
+border-radius:5px;
+border-style:solid;
+border-width:medium;
+}
+.book-content{
+position:relative;;
+top:210px;
+right:160px;
+}
+.book-content .card-btn{
+background-color:navy;
+border-radius:5px;
+text-decoration:none;
+}
+.book-content a{
+color:white;
+}
+
+
+
